@@ -1,6 +1,6 @@
-# Olá
+# Sobre
 
-Esse é um simples site de portfolio montado em html, css e bootstrap.
+Olá, esse é um simples site de portfolio montado em html, css e bootstrap.
 
 Ele foi montado utilizando o conceito de MVP apenas como site temporário como um local para expor os meus projetos.
 

@@ -12,23 +12,23 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Rodolfo | Rodev.com.br</a>
+    <a class="navbar-brand" href="/">Rodolfo | Rodev.com.br</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#Portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
+          <a class="nav-link" href="#About">Sobre</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#Contact">Contato</a>
         </li>
           </ul>
     </div>
@@ -43,7 +43,8 @@
         <div class="col-lg-6 col-md-8 mx-auto">
           <h1>Rodolfo Santana</h1>
           <h4>Full Stack Web Developer</h4>
-          <p>Olá sou um Desenvolvedor Web Full Stack Jr., tenho grande interesse em programação, tecnologia e mercado financeiro.</p>
+          <p class="fs-6 mt-3">Olá sou um Desenvolvedor Web Full Stack Jr.</p>
+          <p class="fs-6 mt-1">tenho grande interesse em programação, tecnologia e mercado financeiro.</p>
         </div>
       </div>
     </section>
@@ -54,85 +55,89 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <a href="https://github.com/rdmoedas/projeto-grupo1" target="_blank" rel="noopener noreferrer">
+              <img src="./src/thumb-market-place.png" class="bd-placeholder-img card-img-top" alt="Marketplace - miniatura do site">
+            </a>
             <div class="card-body">
-              <p class="card-text">Market place para locação de eletronicos. Projeto com CRUD feito como trabalho de conclusão.</p>
-              <div class="d-flex justify-content-evenly align-items-center">
-                <small class="text-muted">Node.js</small>
-                <small class="text-muted">Express</small>
-                <small class="text-muted">MySQL</small>
-                <small class="text-muted">Heroku</small>
-                <small class="text-muted">Git</small>
+              <p class="card-text">Market place para locação de eletrônicos. Projeto com CRUD utilizando MySQL como database. Realizado em grupo como trabalho de conclusão.</p>
+              <div class="d-flex justify-content-evenly flex-wrap align-items-center">
+                <small class="text-muted px-1">Node.js</small>
+                <small class="text-muted px-1">Express</small>
+                <small class="text-muted px-1">MySQL</small>
+                <small class="text-muted px-1">Heroku</small>
+                <small class="text-muted px-1">Git</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <a href="https://convite-casamento-two.vercel.app" target="_blank" rel="noopener noreferrer">
+              <img src="./src/thumb-convite.png" class="bd-placeholder-img card-img-top" alt="Convite de casamento - site">
+            </a>
             <div class="card-body">
-              <p class="card-text">Site de convite de casamento, feito em modelo hackaton como projeto final para o curso Frontend Web Developer da Cel.lep & Facebook Estação Hack.</p>
-              <div class="d-flex justify-content-evenly align-items-center">
+              <p class="card-text">Site de convite de casamento, feito em modelo hackathon como projeto final para o curso Frontend Web Developer da Cel.lep & Facebook Estação Hack.</p>
+              <div class="d-flex justify-content-evenly flex-wrap align-items-center">
+                <small class="text-muted px-1">JS</small>
+                <small class="text-muted px-1">HTML</small>
+                <small class="text-muted px-1">CSS</small>
+                <small class="text-muted px-1">Bootstrap</small>
+                <small class="text-muted px-1">Vercel</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="https://rodev.com.br" target="_blank" rel="noopener noreferrer">
+              <img src="./src/thumb-portfolio.png" class="bd-placeholder-img card-img-top" alt="Portfolio - Miniatura do site">
+            </a>
+            <div class="card-body">
+              <p class="card-text">O site que você se encontra. Foi montado em HTML, CSS e Bootstrap. O versionamento foi feito pelo github, e a hospedagem foi feita pela Vercel.</p>
+              <div class="d-flex justify-content-evenly flex-wrap align-items-center">
+                <small class="text-muted px-1">JS</small>
+                <small class="text-muted px-1">HTML</small>
+                <small class="text-muted px-1">CSS</small>
+                <small class="text-muted px-1">Bootstrap</small>
+                <small class="text-muted px-1">Vercel</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./src/thumb-mind-care2.png" class="bd-placeholder-img card-img-top" alt="Mind Care - Miniatura do Projeto">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Mind Care. Projeto de UI/UX. Portal feito para divulgar notícias e facilitar atendimentos com profissionais de saúde mental. Projeto realizado em grupo durante o curso UI/UX da Cel.lep & Facebook Estação Hack.</p>
+              <div class="d-flex justify-content-evenly flex-wrap align-items-center">
+                <small class="text-muted px-1">UI/UX</small>
+                <small class="text-muted px-1">Figma</small>
+                <small class="text-muted px-1">Materialize</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="https://rodev-cra-rdmoedas.vercel.app" target="_blank" rel="noopener noreferrer">
+              <img src="./src/thumb-cra.png" class="bd-placeholder-img card-img-top" alt="Site em React - Miniatura">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Pequeno projeto realizado em React para aplicar o conceito de components.</p>
+              <div class="d-flex justify-content-evenly flex-wrap align-items-center">
+                <small class="text-muted">React</small>
                 <small class="text-muted">JS</small>
-                <small class="text-muted">HTML</small>
-                <small class="text-muted">CSS</small>
-                <small class="text-muted">Bootstrap</small>
                 <small class="text-muted">Vercel</small>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">O site que você se encontra. Foi montado em HTML, CSS e Bootstrap. O versionamento foi feito pelo github, e a hospedagem feita pela Vercel.</p>
-              <div class="d-flex justify-content-evenly align-items-center">
-                <small class="text-muted">JS</small>
-                <small class="text-muted">HTML</small>
-                <small class="text-muted">CSS</small>
-                <small class="text-muted">Bootstrap</small>
-                <small class="text-muted">Vercel</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">Projeto de UI/UX. Portal feito para divulgar noticias e facilitar atendmentos com profissionais de saúde mental. Projeto realizado em grupo durante curso UI/UX  da Cel.lep & Facebook Estação Hack.</p>
-              <div class="d-flex justify-content-evenly align-items-center">
-                <small class="text-muted">UI/UX</small>
-                <small class="text-muted">Figma</small>
-                <small class="text-muted">Materalize</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-    <!--         
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-evenly align-items-center">
-                <small class="text-muted">JS</small>
-                <small class="text-muted">HTML</small>
-                <small class="text-muted">CSS</small>
-                <small class="text-muted">bootstrap</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
+        <!-- <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
@@ -154,42 +159,50 @@
 
     </section>
 
-    <section id="Sobre" class="">
-
-    </section>
-
-
-      <section id="about" class="mx-4">
+      <section id="About" class="mx-4">
         <h2 class="text-center my-3">Sobre</h2>
+        <div class="col-lg-6 col-md-8 mx-auto align-items-center mb-3">
+          <img src="./src/foto-linkedin.jpg" class="rounded-circle mx-auto d-block" alt="Rodolfo Santana">
+        </div>
         <div class="col-lg-6 col-md-8 mx-auto">
             <p>
                 Olá, me chamo Rodolfo Santana, e sou um desenvolvedor web full stack.
                 Tenho 35 anos e sou de São Paulo - SP.
             </p>
             <p>
-                Possuo conhecimento nas seguintes técnologias:
+                Possuo conhecimento nas seguintes tecnologias:
             </p>
-            <div class="d-flex justify-content-evenly align-items-center mb-3">
-                <small class="text-muted">JS</small>
-                <small class="text-muted">HTML</small>
-                <small class="text-muted">CSS</small>
-                <small class="text-muted">bootstrap</small>
-                <small class="text-muted">bootstrap</small>
-                <small class="text-muted">bootstrap</small>
-                <small class="text-muted">bootstrap</small>
-                <small class="text-muted">bootstrap</small>
-                <small class="text-muted">bootstrap</small>
+            <div class="d-flex justify-content-evenly flex-wrap align-items-center mb-3 fs-4">
+                <small class="text-muted px-2 py-1">React</small>
+                <small class="text-muted px-2 py-1">JS</small>
+                <small class="text-muted px-2 py-1">Node.js</small>
+                <small class="text-muted px-2 py-1">Express</small>
+                <small class="text-muted px-2 py-1">API</small>
+                <small class="text-muted px-2 py-1">MySQL</small>
+                <small class="text-muted px-2 py-1">MongoDB</small>
+                <small class="text-muted px-2 py-1">Sequelize</small>
+                <small class="text-muted px-2 py-1">Git</small>
+                <small class="text-muted px-2 py-1">Téc. Ágeis (Scrum, Kanban)</small>
+                <small class="text-muted px-2 py-1">HTML</small>
+                <small class="text-muted px-2 py-1">CSS</small>
+                <small class="text-muted px-2 py-1">Bootstrap</small>
               </div>
         </div>
         <div class="col-lg-6 col-md-8 mx-auto">
-          Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Detraxit consequat et quo num tendi nada. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Si num tem leite então bota uma pinga aí cumpadi!
+          <p>
+          Tenho formação em desenvolvimento web pela Digital House. E antes de iniciar minha transição de carreira, atuava como empresário organizando eventos e cursos.
+          </p>
+          <p>
+          Me orgulho de realizar um evento presencial para mais de 3 mil pessoas com participação de Chris Gardner, de ter escalado o Monte Fuji e das pessoas incríveis que conheci e tenho o prazer de conviver.
+          </p>
         </div>
+
       </section>
 
-      <section id="contact" class="mb-3 bg-secondary">
+      <section id="Contact" class="mb-3 bg-secondary">
         <div class="container pb-4">
-        <h2 class="text-center my-4 pt-3">Entre em contato</h2>
-        <p class="text-center">Fique a contade para entrar em contato.</p>
+        <h2 class="text-center text-light my-4 pt-3">Contato</h2>
+        <p class="text-center text-light">Fique à vontade para entrar em contato.</p>
         <div class="text-center center-block">
 	        <a href="https://www.linkedin.com/in/rodolfo-santana-57766b47" class="px-3">
                 <i class="fab fa-linkedin-in icon"></i>
@@ -197,7 +210,7 @@
             <a href="https://github.com/rdmoedas" class="px-3">
                 <i class="fab fa-github icon"></i>
             </a>
-	        <a href="#" class="px-3">
+	        <a href="https://www.youtube.com/channel/UCkpXbrxGO-v7K6YEaPoBRJA" class="px-3">
                 <i class="fab fa-youtube icon"></i>
             </a>
         </div>
